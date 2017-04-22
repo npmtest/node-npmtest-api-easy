@@ -1,6 +1,6 @@
 # npmtest-api-easy
 
-#### basic test coverage for  [api-easy (v0.4.0)](https://github.com/flatiron/api-easy)  [![npm package](https://img.shields.io/npm/v/npmtest-api-easy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-api-easy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-api-easy.svg)](https://travis-ci.org/npmtest/node-npmtest-api-easy)
+#### basic test-coverage for  [api-easy (v0.4.0)](https://github.com/flatiron/api-easy)  [![npm package](https://img.shields.io/npm/v/npmtest-api-easy.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-api-easy) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-api-easy.svg)](https://travis-ci.org/npmtest/node-npmtest-api-easy)
 
 #### Fluent (i.e. chainable) syntax for generating vows tests against RESTful APIs.
 
@@ -83,7 +83,8 @@
     "scripts": {
         "test": "vows test/*-test.js --spec"
     },
-    "version": "0.4.0"
+    "version": "0.4.0",
+    "bin": {}
 }
 ```
 
